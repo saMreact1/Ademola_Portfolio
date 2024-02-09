@@ -189,12 +189,12 @@ h6 span:nth-child(2) {
 
 .section3 .column {
     float: left;
-    width: 470px;
+    width: 460px;
     height: 504px;
 }
 
 .section3 .column:nth-child(2) {
-    margin-right: 11px;
+    margin-right: 19px;
 }
 
 .section3 .column:nth-child(4) {
