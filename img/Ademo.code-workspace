@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Ademo"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ademo",
+		"liveServer.settings.port": 5501
+	}
+}
