@@ -19,6 +19,7 @@ header {
 }
 
 header a {
+    color: #ffcf4d;
     text-decoration: none;
     font-weight: 600;
     font-size: 30px;
@@ -320,9 +321,9 @@ footer .navbar ul li a {
     }
 
     .section1 .hex {
-        width: 110%;
+        width: 120%;
         height: 5px;
-        top: 50%;
+        top: 46%;
         left: -5%;
     }
 
@@ -433,6 +434,7 @@ footer .navbar ul li a {
     }
     
     footer {
+        width: 425px;
         padding: 0px 20px;
     }
     
@@ -452,6 +454,7 @@ footer .navbar ul li a {
     }
     
     .copy {
+        width: 425px;
         height: 30px;
         font-size: 12px;
         font-weight: 500;
