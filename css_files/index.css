@@ -193,7 +193,7 @@ h6 span:nth-child(2) {
 }
 
 .section3 .column:nth-child(2) {
-    margin-right: 15px;
+    margin-right: 11px;
 }
 
 .section3 .column:nth-child(4) {
@@ -269,9 +269,9 @@ footer .navbar ul li a {
 
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
     header {
-        width: 428px;
+        width: 425px;
         padding: 10px 30px;
 
     }
@@ -286,7 +286,7 @@ footer .navbar ul li a {
     }
     
     .section1 {
-        width: 428px;
+        width: 425px;
         height: 273px;
         margin-top: 62px;
         background-size: cover;
@@ -323,15 +323,15 @@ footer .navbar ul li a {
     .section1 .hex {
         width: 110%;
         height: 5px;
-        top: 57%;
+        top: 50%;
         left: -5%;
     }
 
     .section2 {
-        width: 428px;
+        width: 425px;
         height: 1160px;
         margin: 0;
-        padding: 20px 15px;
+        padding: 20px 14px;
     }
     
     .section2 h2 {
@@ -411,6 +411,11 @@ footer .navbar ul li a {
         width: 380px;
         height: 379.88px;
         margin-bottom: 25px;
+    }
+
+    .section .column img {
+        width: 350px;
+        height: 287.88px;
     }
     
     .section3 .column div {
