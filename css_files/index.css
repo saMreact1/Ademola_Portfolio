@@ -273,7 +273,6 @@ footer .navbar ul li a {
     header {
         width: 425px;
         padding: 10px 30px;
-
     }
     
     header a {
@@ -385,7 +384,7 @@ footer .navbar ul li a {
     }
 
     .section3 {
-        width: 100%;
+        width: 425px;
         height: 1400px;
         padding: 40px 22px;
     }
@@ -413,8 +412,8 @@ footer .navbar ul li a {
         margin-bottom: 25px;
     }
 
-    .section .column img {
-        width: 350px;
+    .section3 .column img {
+        width: 380px;
         height: 287.88px;
     }
     
