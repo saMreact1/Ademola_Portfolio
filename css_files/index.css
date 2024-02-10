@@ -1,14 +1,15 @@
 * {
+    padding: 0; margin: 0;
     box-sizing: border-box;
-    margin: 0;
+    font-family: "Inter", serif;
+    text-decoration: none;
 }
 
 body {
-    font-family: "Inter", serif;
+    overflow: auto;
 }
 
 header {
-    position: fixed;
     padding: 10px 60px;
     left: 0; right: 0; top: 0;
     background-color: #070707;
@@ -46,17 +47,17 @@ header .navbar ul li a {
 .section1 {
     height: 480px;
     background-image: url(/img/bg.png);
-    margin-top: 72px;
     color: white;
     background-color: #070707;
     text-align: center;
-    border: 1px solid black;
+    padding-top: 90px;
+    overflow: hidden;
 }
 
 .section1 .text {
     width: 659px;
     height: 150px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .section1 .text h1 {
@@ -93,7 +94,6 @@ h6 span:nth-child(2) {
 .section1 .hex {
     position: absolute;
     width: 73%;
-    height: 5px;
     border-bottom: 47px solid white;
     border-right: 100px solid transparent;
     border-left: 100px solid transparent;
@@ -147,13 +147,13 @@ h6 span:nth-child(2) {
     width: 300px;
     height: 24px;
     font-weight: 500;
-    font-size: 15.5px;
+    font-size: 15px;
 }
 
 .section2 .column div a {
     width: 103px;
     height: 24px;
-    font-size: 15px;
+    font-size: 15.4px;
     font-weight: 400;
     text-decoration: none;
     color: #070707;
@@ -189,7 +189,7 @@ h6 span:nth-child(2) {
 
 .section3 .column {
     float: left;
-    width: 460px;
+    width: 470px;
     height: 504px;
 }
 
@@ -208,6 +208,7 @@ h6 span:nth-child(2) {
 .section3 .column div {
     width: 470px;
     height: 96px;
+    margin-top: 10px;
 }
 
 .section3 .column div h4 {
@@ -270,7 +271,7 @@ footer .navbar ul li a {
 
 
 
-@media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     header {
         width: 425px;
         padding: 10px 30px;
@@ -284,18 +285,16 @@ footer .navbar ul li a {
     header .navbar {
         display: none;
     }
-    
+
     .section1 {
         width: 425px;
         height: 273px;
-        margin-top: 62px;
-        background-size: cover;
+        padding-top: 50px;
     }
     
     .section1 .text {
         width: 336px;
         height: 120px;
-        margin: 45px auto;
     }
     
     .section1 .text h1 {
@@ -319,36 +318,40 @@ footer .navbar ul li a {
         font-size: 14px;
         margin-top: 5px;
     }
-
+    
     .section1 .hex {
-        width: 130%;
-        height: 5px;
-        top: 50%;
-        left: -7%;
+        width: 112%;
+        top: 57%;
+        left: -24px;
+        overflow: hidden;
     }
 
     .section2 {
         width: 425px;
-        height: 1160px;
+        height: 1130px;
         margin: 0;
-        padding: 20px 14px;
+        padding: 0 23.5px;
     }
     
     .section2 h2 {
         width: 98px;
-        margin: 10px auto 5px;
+        margin: 25px auto 10px;
     }
     
     .section2 .column {
-        float: left;
         width: 182px;
         height: 229.36px;
-        margin: 8px 8px 15px;
+        margin: 0 auto 30px;
+    }
+    
+    .section2 .column:nth-child(8), .section2 .column:nth-child(5),
+    .section2 .column:nth-child(6), .section2 .column:nth-child(7) {
+        margin-top: 0px;
     }
 
-    .section2 .column:nth-child(4), .section2 .column:nth-child(5),
-    .section2 .column:nth-child(6), .section2 .column:nth-child(7) {
-        margin-top: 20px;
+    .section2 .column:nth-child(2), .section2 .column:nth-child(4),
+    .section2 .column:nth-child(6), .section2 .column:nth-child(8) {
+        margin-right: 12px;
     }
     
     .section2 .column img {
@@ -365,17 +368,14 @@ footer .navbar ul li a {
         width: 182px;
         height: 24px;
         font-size: 15px;
+        margin-top: 5px;
     }
     
     .section2 .column div p {
         width: 181px;
         height: 32px;
-        font-size: 12px;
-    }
-
-    .section2 .column:nth-child(4) div p, 
-    .section2 .column:nth-child(5) div p, .section2 .column:nth-child(8) div p {
-        margin-bottom: -10px;
+        font-size: 13px;
+        margin-bottom: 5px;
     }
     
     .section2 .column div a {
@@ -384,14 +384,19 @@ footer .navbar ul li a {
         font-size: 14px;
     }
 
+    .section2 .column:nth-child(4) div p, .section2 .column:nth-child(5) div p, 
+    .section2 .column:nth-child(8) div p {
+        margin-bottom: -10px;
+    }
+
     .section3 {
         width: 425px;
         height: 1400px;
-        padding: 40px 22px;
+        padding: 40px 23.5px;
     }
     
     .section3 .text {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     
     .section3 .text h1 {
@@ -410,9 +415,17 @@ footer .navbar ul li a {
     .section3 .column {
         width: 380px;
         height: 379.88px;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
-
+    
+    .section3 .column:nth-child(2) {
+        margin-right: 0;
+    }
+    
+    .section3 .column:nth-child(4) {
+        margin-top: 0;
+    }
+    
     .section3 .column img {
         width: 380px;
         height: 287.88px;
@@ -421,9 +434,11 @@ footer .navbar ul li a {
     .section3 .column div {
         width: 380px;
         height: 84px;
+        margin-top: 6px;
     }
     
     .section3 .column div h4 {
+        width: 380px;
         height: 56px;
         font-size: 20px;
     }
@@ -432,10 +447,10 @@ footer .navbar ul li a {
         font-size: 16px;
         height: 24px;
     }
-    
+
     footer {
         width: 425px;
-        padding: 0px 20px;
+        padding: 0 20px;
     }
     
     footer a {
@@ -446,6 +461,7 @@ footer .navbar ul li a {
     
     footer .navbar {
         height: 24px;
+        width: 425px;
         padding-top: 3px;
     }
     
@@ -456,8 +472,8 @@ footer .navbar ul li a {
     .copy {
         width: 425px;
         height: 30px;
+        padding: 7px;
         font-size: 12px;
         font-weight: 500;
-        padding: 5px;
     }
 }
