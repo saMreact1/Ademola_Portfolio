@@ -1,0 +1,333 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    text-decoration: none;
+}
+
+body {
+    overflow: auto;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+header {
+    padding: 10px 60px;
+    left: 0; right: 0; top: 0;
+    background-color: #070707;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header a {
+    color: #ffcf4d;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+header .navbar {
+    height: 40px;
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    float: right;
+}
+
+header .navbar ul li a {
+    padding: 0 10px;
+    display: block;
+    color: #fff;
+}
+
+.text h1 {
+    font-family: "Grenze", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text h6 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text {
+    padding-top: 60px;
+    height: 320px;
+    color: white;
+    text-align: center;
+    font-family: "Inter", serif;
+    background-image: url(/img/bg.png);
+    background-color: #070707;
+}
+
+section {
+    padding: 40px 180px 100px;
+    height: 5320px;
+}
+
+section h4 {
+    color: #0013b2;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0 6px;
+}
+
+.role {
+    font-weight: 600;
+    line-height: 24px;
+    height: 24px;
+    color: #202020;
+    margin-top: 15px;
+}
+
+.role span {
+    color: #666666;
+}
+
+p span {
+    font-weight: 600;
+}
+
+section h5 {
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lnk {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+article {
+    padding: 0 50px;
+}
+
+article img {
+    margin: 20px 0;
+    width: 100%;
+}
+
+article p.img-txt {
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+
+article .column {
+    float: left;
+    width: 220px;
+    height: 113px;
+}
+
+article .column h6 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 3px;
+}
+
+article .column ul {
+    padding: 0 25px;
+}
+
+article .column ul li {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+footer {
+    padding: 10px 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #070707;
+}
+
+footer .navbar {
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+footer .navbar ul {
+    list-style: none;
+}
+
+footer .navbar ul li {
+    float: right;
+}
+
+footer .navbar ul li a {
+    padding: 0 10px;
+    display: block;
+    color: #0d0d0d;
+}
+
+.copy {
+    text-align: center;
+    height: 40px;
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 10px;
+}
+
+button {
+    width: 309px;
+    height: 56px;
+    border: none;
+    float: right;
+    padding: 14px 10px;
+    margin-top: 70px;
+    background-color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button a {
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+    header {
+        width: 425px;
+        padding: 10px 30px;
+    }
+    
+    header a {
+        font-weight: 500;
+        font-size: 24px;
+    }
+    
+    header .navbar {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 32px;
+    }
+    
+    .text h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .text {
+        width: 425px;
+        padding-top: 60px;
+        height: 233px;
+    }
+
+    section {
+        padding: 15px 0;
+        height: 5420px;
+    }
+    
+    section h4 {
+        font-size: 20px;
+    }
+
+    .role {
+        font-weight: 500;
+    }
+
+    section h5 {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+
+    article {
+        padding: 0 30px;
+    }
+    
+    article p.img-txt {
+        margin-bottom: 14px;
+    }
+
+    article .column {
+        width: 224px;
+        height: 112px;
+    }
+    
+    article .column h6 {
+        font-size: 16px;
+        margin: 10px 3px;
+    }
+
+    article .column:nth-child(2) {
+        margin-bottom: 50px;
+    }
+
+    article .column:nth-child(5) {
+        margin-top: -35px;
+    }
+
+    article .column ul {
+        padding: 0 30px;
+    }
+    
+    article .column ul li {
+        font-size: 15px;
+    }
+
+    button {
+        width: 214px;
+        height: 48px;
+        padding: 14px 10px;
+        margin: 20px 70px;
+        font-size: 14px;
+    }
+
+    footer {
+        width: 425px;
+        padding: 0 20px;
+    }
+    
+    footer a {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    footer .navbar {
+        height: 24px;
+        width: 425px;
+        padding-top: 3px;
+    }
+    
+    footer .navbar ul li a {
+        padding: 0 5px;
+    }
+    
+    .copy {
+        width: 425px;
+        height: 30px;
+        padding: 7px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}

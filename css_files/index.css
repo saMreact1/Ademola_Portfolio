@@ -164,7 +164,7 @@ h6 span:nth-child(2) {
     height: 1230px;
     color: white;
     background-color: #0d0d0d;
-    padding: 70px 197px;
+    padding: 70px 190px;
 }
 
 .section3 .text {
@@ -194,7 +194,7 @@ h6 span:nth-child(2) {
 }
 
 .section3 .column:nth-child(2) {
-    margin-right: 19px;
+    margin-right: 20px;
 }
 
 .section3 .column:nth-child(4) {
