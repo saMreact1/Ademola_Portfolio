@@ -420,9 +420,9 @@ button a {
     button {
         width: 214px;
         height: 48px;
-        padding: 14px 0px;
+        padding: 14px 5px;
         margin: 20px 45px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     footer {
