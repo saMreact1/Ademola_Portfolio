@@ -530,7 +530,7 @@ footer .navbar ul li a {
     }
     
     .section1 .hex {
-        width: 117%;
+        width: 122%;
         top: 54%;
         left: -22px;
         overflow: hidden;
@@ -595,6 +595,11 @@ footer .navbar ul li a {
     .section2 .column:nth-child(4) div p, .section2 .column:nth-child(5) div p, 
     .section2 .column:nth-child(8) div p {
         margin-bottom: -10px;
+    }
+
+    .section2 .column:nth-child(2) div p, 
+    .section2 .column:nth-child(3) div p {
+        margin-top: 10px;
     }
 
     .section3 {
