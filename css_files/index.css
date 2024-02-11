@@ -271,7 +271,7 @@ footer .navbar ul li a {
 
 
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
     header {
         width: 425px;
         padding: 10px 30px;
@@ -562,6 +562,10 @@ footer .navbar ul li a {
     .section2 .column:nth-child(2), .section2 .column:nth-child(4),
     .section2 .column:nth-child(6), .section2 .column:nth-child(8) {
         margin-right: 5px;
+    }
+
+    .section2 .column:nth-child(2), .section2 .column:nth-child(3) {
+        margin-bottom: 10px;
     }
     
     .section2 .column img {
