@@ -271,7 +271,7 @@ footer .navbar ul li a {
 
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) {
     header {
         width: 425px;
         padding: 10px 30px;
@@ -531,8 +531,8 @@ footer .navbar ul li a {
     
     .section1 .hex {
         width: 112%;
-        top: 37%;
-        left: -24px;
+        top: 57%;
+        left: -22px;
         overflow: hidden;
     }
 
@@ -576,7 +576,7 @@ footer .navbar ul li a {
     
     .section2 .column div h5 {
         width: 169px;
-        height: 24px;
+        height: px;
         font-size: 14px;
         margin-top: 5px;
     }
