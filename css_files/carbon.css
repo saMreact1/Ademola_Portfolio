@@ -71,15 +71,22 @@ header .navbar ul li a {
     background-color: #070707;
 }
 
+article {
+    width: 858px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
 section {
-    height: 3400px;
+    padding-top: 40px;
+    height: 5270px;
 }
 
 section h4 {
     color: #0013b2;
     font-size: 24px;
     font-weight: 700;
-    margin: 30px 0 6px;
+    margin: 15px 0 6px;
 }
 
 .role {
@@ -90,34 +97,28 @@ section h4 {
     margin-top: 15px;
 }
 
+.role:nth-child(4) {
+    margin-bottom: 15px;
+}
+
 .role span {
     color: #666666;
 }
 
-article {
-    margin: 0 auto;
-    padding: 0 50px;
-}
-
 article img {
-    margin: 20px -16px;
+    margin: 20px 0;
     width: 100%;
-
-}
-
-article .half {
-    width: 50%;
-}
-
-article .half2 {
-    width: 70%;
 }
 
 article p.img-txt {
     font-weight: 500;
     font-style: italic;
     margin-bottom: 15px;
-    margin-top: -30px;
+    margin-top: -20px;
+}
+
+article .qtz {
+    width: 25%;
 }
 
 footer {
@@ -215,38 +216,28 @@ button a {
 
     section {
         padding: 10px;
-        height: 3400px;
+        height: 4930px;
     }
     
     section h4 {
         font-size: 20px;
     }
 
+    article {
+        width: 380px;
+        padding: 0 30px;
+    }
+
     .role {
         font-weight: 500;
     }
 
-    article {
-        margin: 0 auto;
-        padding: 0 30px;
-    }
-
-    article img {
-        margin: 20px -7px;
-        width: 100%;
-    
-    }
-    
-    article .half, article .half2 {
-        width: 100%;
-    }
-    
-    article p.img-txt {
-        margin-bottom: 14px;
+    .role:nth-child(4) {
+        margin-bottom: 35px;
     }
 
     button {
-        width: 225px;
+        width: 215px;
         height: 48px;
         padding: 14px 5px;
         margin: 55px 45px;
@@ -280,5 +271,4 @@ button a {
         padding: 7px;
         font-size: 12px;
         font-weight: 500;
-    }
 }
