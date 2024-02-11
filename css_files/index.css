@@ -530,8 +530,8 @@ footer .navbar ul li a {
     }
     
     .section1 .hex {
-        width: 112%;
-        top: 57%;
+        width: 117%;
+        top: 54%;
         left: -22px;
         overflow: hidden;
     }
@@ -576,7 +576,6 @@ footer .navbar ul li a {
     
     .section2 .column div h5 {
         width: 169px;
-        height: px;
         font-size: 14px;
         margin-top: 5px;
     }
@@ -590,7 +589,6 @@ footer .navbar ul li a {
     
     .section2 .column div a {
         width: 87px;
-        height: 16px;
         font-size: 14px;
     }
 
