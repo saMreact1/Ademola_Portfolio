@@ -72,7 +72,7 @@ header .navbar ul li a {
 }
 
 section {
-    height: 3400px;
+    height: 5800px;
     padding-top: 40px;
 }
 
@@ -80,11 +80,7 @@ section h4 {
     color: #0013b2;
     font-size: 24px;
     font-weight: 700;
-    margin: 30px 0 6px;
-}
-
-section article:nth-child(2) h4 {
-    margin-bottom: -15px;
+    margin: 25px 0 6px;
 }
 
 .role {
@@ -106,37 +102,21 @@ section h5 {
     padding-bottom: 5px;
 }
 
-.lnk {
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 500;
-}
-
 article {
     width: 858px;
     margin: 0 auto;
     padding: 0;
 }
 
-article ul {
-    padding: 0 25px;
-}
-
-article ul li {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 22px;
-    margin-top: 5px;
-}
-
 article img {
-    margin: 20px 0;
+    margin: 20px 0 0;
     width: 100%;
 
 }
 
 article .half {
-    width: 55%;
+    width: 48%;
+    margin-right: 10px;
 }
 
 article .qtz {
@@ -144,7 +124,15 @@ article .qtz {
 }
 
 article .qtz2 {
-    width: 30%;
+    width: 40%;
+}
+
+article img.shift {
+    margin-left: -12px;
+}
+
+article img.up {
+    margin-bottom: 144px;
 }
 
 article p.img-txt {
@@ -217,7 +205,6 @@ button a {
 
 
 
-
 @media only screen and (max-width: 390px) {
     header {
         width: 390px;
@@ -250,16 +237,12 @@ button a {
 
     section {
         padding: 10px;
-        height: 3400px;
-    }
-    
-    section h4 {
-        font-size: 20px;
+        height: 5700px;
     }
 
-    section article:nth-child(2) h4 {
-        margin-bottom: -10px;
-        margin-top: 70px;
+    section h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
     }
 
     article {
@@ -268,19 +251,40 @@ button a {
     }
 
     article img {
-        margin: 10px 0;
+        margin: 10px 0 -5px;
     }
 
-    article .half, article .qtz2 {
+    article img.dif {
+        width: 32%;
+    }
+
+    article img.shift {
+        margin-left: -5px;
+    }
+
+    article img.shift2 {
+        margin-left: -10px;
+    }
+
+    article img.up {
+        margin-bottom: 50px;
+    }
+
+    article .qtz {
+        width: 50%;
+    }
+
+    article .qtz2 {
         width: 100%;
+    }
+
+    article .half {
+        width: 49%;
+        margin-right: 3px;
     }
 
     .role {
         font-weight: 500;
-    }
-
-    .role:nth-child(4) {
-        margin-bottom: 65px;
     }
 
     button {

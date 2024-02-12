@@ -72,7 +72,7 @@ header .navbar ul li a {
 }
 
 section {
-    height: 3400px;
+    height: 1720px;
     padding-top: 40px;
 }
 
@@ -81,10 +81,6 @@ section h4 {
     font-size: 24px;
     font-weight: 700;
     margin: 30px 0 6px;
-}
-
-section article:nth-child(2) h4 {
-    margin-bottom: -15px;
 }
 
 .role {
@@ -99,34 +95,10 @@ section article:nth-child(2) h4 {
     color: #666666;
 }
 
-section h5 {
-    padding-top: 25px;
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 5px;
-}
-
-.lnk {
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 500;
-}
-
 article {
     width: 858px;
     margin: 0 auto;
     padding: 0;
-}
-
-article ul {
-    padding: 0 25px;
-}
-
-article ul li {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 22px;
-    margin-top: 5px;
 }
 
 article img {
@@ -135,23 +107,15 @@ article img {
 
 }
 
-article .half {
-    width: 55%;
-}
-
 article .qtz {
     width: 25%;
-}
-
-article .qtz2 {
-    width: 30%;
 }
 
 article p.img-txt {
     font-weight: 500;
     font-style: italic;
-    margin-bottom: 15px;
-    margin-top: -20px;
+    margin-bottom: -15px;
+    margin-top: 15px;
 }
 
 footer {
@@ -217,7 +181,6 @@ button a {
 
 
 
-
 @media only screen and (max-width: 390px) {
     header {
         width: 390px;
@@ -250,16 +213,11 @@ button a {
 
     section {
         padding: 10px;
-        height: 3400px;
-    }
-    
-    section h4 {
-        font-size: 20px;
+        height: 1450px;
     }
 
-    section article:nth-child(2) h4 {
-        margin-bottom: -10px;
-        margin-top: 70px;
+    section h4 {
+        font-size: 20px;
     }
 
     article {
@@ -268,19 +226,17 @@ button a {
     }
 
     article img {
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
-    article .half, article .qtz2 {
-        width: 100%;
+    article p.img-txt {
+        line-height: 20px;
+        margin-bottom: -15px;
+        margin-top: 15px;
     }
 
     .role {
         font-weight: 500;
-    }
-
-    .role:nth-child(4) {
-        margin-bottom: 65px;
     }
 
     button {

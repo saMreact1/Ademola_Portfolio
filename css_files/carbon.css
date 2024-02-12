@@ -79,7 +79,7 @@ article {
 
 section {
     padding-top: 40px;
-    height: 5270px;
+    height: 5290px;
 }
 
 section h4 {
@@ -87,6 +87,12 @@ section h4 {
     font-size: 24px;
     font-weight: 700;
     margin: 15px 0 6px;
+}
+
+section h5 {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .role {
@@ -232,9 +238,18 @@ button a {
         font-size: 20px;
     }
 
+    section h5 {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+
     article {
         width: 380px;
         padding: 0 30px;
+    }
+
+    article img {
+        margin: 10px 0;
     }
 
     .role {
