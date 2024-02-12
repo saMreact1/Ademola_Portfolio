@@ -213,7 +213,7 @@ button a {
 
     section {
         padding: 10px;
-        height: 1450px;
+        height: 1750px;
     }
 
     section h4 {
@@ -233,6 +233,10 @@ button a {
         line-height: 20px;
         margin-bottom: -15px;
         margin-top: 15px;
+    }
+
+    article .qtz {
+        width: 50%;
     }
 
     .role {

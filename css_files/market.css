@@ -72,7 +72,7 @@ header .navbar ul li a {
 }
 
 section {
-    height: 5800px;
+    height: 3250px;
     padding-top: 40px;
 }
 
@@ -95,13 +95,6 @@ section h4 {
     color: #666666;
 }
 
-section h5 {
-    padding-top: 25px;
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 5px;
-}
-
 article {
     width: 858px;
     margin: 0 auto;
@@ -115,24 +108,24 @@ article img {
 }
 
 article .half {
-    width: 48%;
-    margin-right: 10px;
+    width: 50%;
+}
+
+article .half2 {
+    width: 75%;
+}
+
+article .half3 {
+    width: 80%;
 }
 
 article .qtz {
     width: 25%;
 }
 
-article .qtz2 {
-    width: 40%;
-}
 
 article img.shift {
-    margin-left: -12px;
-}
-
-article img.up {
-    margin-bottom: 144px;
+    margin-left: -16px;
 }
 
 article p.img-txt {
@@ -237,7 +230,7 @@ button a {
 
     section {
         padding: 10px;
-        height: 5600px;
+        height: 2750px;
     }
 
     section h4 {
@@ -254,8 +247,20 @@ button a {
         margin: 10px 0 -5px;
     }
 
-    article img.dif {
-        width: 32%;
+    article .half, article .half2, article .half3 {
+        width: 100%;
+    }
+    
+    article .qtz {
+        width: 49.5%;
+    }
+
+    .role {
+        font-weight: 500;
+    }
+
+    .role:nth-child(4) {
+        margin: 35px 0 65px;
     }
 
     article img.shift {
@@ -266,25 +271,10 @@ button a {
         margin-left: -10px;
     }
 
-    article img.up {
-        margin-bottom: 50px;
-    }
-
-    article .qtz {
-        width: 50%;
-    }
-
-    article .qtz2 {
-        width: 100%;
-    }
-
-    article .half {
-        width: 48%;
-        margin-right: 3px;
-    }
-
-    .role {
-        font-weight: 500;
+    article p.img-txt {
+        line-height: 20px;
+        margin-bottom: 15px;
+        margin-top: 2px;
     }
 
     button {
