@@ -72,7 +72,8 @@ header .navbar ul li a {
 }
 
 section {
-    height: 2980px;
+    padding-top: 40px;
+    height: 3320px;
 }
 
 section h4 {
@@ -97,7 +98,7 @@ section h4 {
 article {
     width: 858px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0;
 }
 
 article img {
@@ -216,7 +217,7 @@ button a {
 
     section {
         padding: 10px;
-        height: 3400px;
+        height: 3300px;
     }
     
     section h4 {
@@ -228,7 +229,7 @@ button a {
     }
 
     article {
-        margin: 0 auto;
+        width: 380px;
         padding: 0 30px;
     }
 

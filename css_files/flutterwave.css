@@ -72,7 +72,7 @@ header .navbar ul li a {
 }
 
 section {
-    padding: 40px 180px 100px;
+    padding-top: 40px;
     height: 5320px;
 }
 
@@ -112,8 +112,9 @@ section h5 {
 }
 
 article {
+    width: 858px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0;
 }
 
 article img {
@@ -213,128 +214,6 @@ button a {
 
 
 
-@media only screen and (max-width: 425px) {
-    header {
-        width: 425px;
-        padding: 10px 30px;
-    }
-    
-    header a {
-        font-weight: 500;
-        font-size: 24px;
-    }
-    
-    header .navbar {
-        display: none;
-    }
-
-    .text h1 {
-        font-size: 32px;
-    }
-    
-    .text h6 {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .text {
-        width: 425px;
-        padding-top: 60px;
-        height: 233px;
-    }
-
-    section {
-        padding: 10px 20px;
-        height: 5420px;
-    }
-    
-    section h4 {
-        font-size: 20px;
-    }
-
-    .role {
-        font-weight: 500;
-    }
-
-    section h5 {
-        padding-top: 15px;
-        font-size: 16px;
-    }
-
-    article {
-        padding: 0 30px;
-    }
-    
-    article p.img-txt {
-        margin-bottom: 14px;
-    }
-
-    article .column {
-        width: 224px;
-        height: 112px;
-    }
-    
-    article .column h6 {
-        font-size: 16px;
-        margin: 10px 3px;
-    }
-
-    article .column:nth-child(2) {
-        margin-bottom: 50px;
-    }
-
-    article .column:nth-child(5) {
-        margin-top: -35px;
-    }
-
-    article .column ul {
-        padding: 0 30px;
-    }
-    
-    article .column ul li {
-        font-size: 15px;
-    }
-
-    button {
-        width: 214px;
-        height: 48px;
-        padding: 14px 5px;
-        margin: 20px 45px;
-        font-size: 14px;
-    }
-
-    footer {
-        width: 425px;
-        padding: 0 20px;
-    }
-    
-    footer a {
-        font-style: italic;
-        font-weight: 500;
-        font-size: 20px;
-    }
-    
-    footer .navbar {
-        height: 24px;
-        width: 425px;
-        padding-top: 3px;
-    }
-    
-    footer .navbar ul li a {
-        padding: 0 5px;
-    }
-    
-    .copy {
-        width: 425px;
-        height: 30px;
-        padding: 7px;
-        font-size: 12px;
-        font-weight: 500;
-    }
-}
-
-
-
 
 @media only screen and (max-width: 390px) {
     header {
@@ -385,6 +264,7 @@ button a {
     }
 
     article {
+        width: 380px;
         padding: 0 30px;
     }
     
