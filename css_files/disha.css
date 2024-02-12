@@ -72,7 +72,8 @@ header .navbar ul li a {
 }
 
 section {
-    height: 2980px;
+    height: 3400px;
+    padding-top: 40px;
 }
 
 section h4 {
@@ -80,6 +81,10 @@ section h4 {
     font-size: 24px;
     font-weight: 700;
     margin: 30px 0 6px;
+}
+
+section article:nth-child(2) h4 {
+    margin-bottom: -15px;
 }
 
 .role {
@@ -94,31 +99,59 @@ section h4 {
     color: #666666;
 }
 
+section h5 {
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.lnk {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 article {
     width: 858px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0;
+}
+
+article ul {
+    padding: 0 25px;
+}
+
+article ul li {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 5px;
 }
 
 article img {
-    margin: 20px -16px;
+    margin: 20px 0;
     width: 100%;
 
 }
 
 article .half {
-    width: 50%;
+    width: 55%;
 }
 
-article .half2 {
-    width: 70%;
+article .qtz {
+    width: 25%;
+}
+
+article .qtz2 {
+    width: 30%;
 }
 
 article p.img-txt {
     font-weight: 500;
     font-style: italic;
     margin-bottom: 15px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 footer {
@@ -183,6 +216,16 @@ button a {
 
 
 
+.copy {
+    text-align: center;
+    height: 40px;
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
 
 @media only screen and (max-width: 390px) {
     header {
@@ -216,41 +259,36 @@ button a {
 
     section {
         padding: 10px;
-        height: 3400px;
+        height: 2950px;
     }
     
     section h4 {
         font-size: 20px;
     }
 
+    section article:nth-child(2) h4 {
+        margin-bottom: -10px;
+        margin-top: 70px;
+    }
+
+    article {
+        width: 380px;
+        padding: 0 30px;
+    }
+
     .role {
         font-weight: 500;
     }
 
-    article {
-        margin: 0 auto;
-        padding: 0 30px;
-    }
-
-    article img {
-        margin: 20px -7px;
-        width: 100%;
-    
-    }
-    
-    article .half, article .half2 {
-        width: 100%;
-    }
-    
-    article p.img-txt {
-        margin-bottom: 14px;
+    .role:nth-child(4) {
+        margin-bottom: 65px;
     }
 
     button {
-        width: 225px;
+        width: 215px;
         height: 48px;
         padding: 14px 5px;
-        margin: 55px 45px;
+        margin: 55px 55px;
         font-size: 12px;
     }
 
