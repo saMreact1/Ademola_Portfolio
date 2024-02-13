@@ -72,7 +72,7 @@ header .navbar ul li a {
 }
 
 section {
-    height: 1720px;
+    height: 1740px;
     padding-top: 40px;
 }
 
@@ -168,7 +168,7 @@ button {
     border: none;
     float: right;
     padding: 14px 10px;
-    margin-top: 70px;
+    margin: 70px 0;
     background-color: #0d0d0d;
     font-size: 16px;
     font-weight: 600;
