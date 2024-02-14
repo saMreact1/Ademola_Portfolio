@@ -217,6 +217,116 @@ button a {
 
 
 
+@media only screen and (max-width: 430px) {
+    header {
+        width: 430px;
+        padding: 10px 30px;
+    }
+    
+    header a {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    header .navbar {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 32px;
+    }
+    
+    .text h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .text {
+        width: 430px;
+        padding-top: 70px;
+        height: 233px;
+    }
+
+    section {
+        padding-top: 10px;
+        height: 3500px;
+    }
+    
+    section h4 {
+        font-size: 20px;
+    }
+
+    section article:nth-child(2) h4 {
+        margin-bottom: -10px;
+        margin-top: 70px;
+    }
+
+    article {
+        width: 430px;
+        padding: 0 30px;
+    }
+
+    article img {
+        margin: 10px 0;
+    }
+
+    article .half, article .qtz2 {
+        width: 100%;
+    }
+
+    article .qtz {
+        width: 50%;
+    }
+
+    .role {
+        font-weight: 500;
+    }
+
+    .role:nth-child(4) {
+        margin-bottom: 65px;
+    }
+
+    button {
+        width: 225px;
+        height: 48px;
+        padding: 14px 5px;
+        margin: 55px 75px;
+        font-size: 12px;
+    }
+
+    footer {
+        width: 430px;
+        padding: 0 20px;
+    }
+    
+    footer a {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    footer .navbar {
+        height: 24px;
+        width: 430px;
+        padding-top: 3px;
+    }
+    
+    footer .navbar ul li a {
+        padding: 0 5px;
+    }
+    
+    .copy {
+        width: 430px;
+        height: 30px;
+        padding: 7px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+
+
+
 
 @media only screen and (max-width: 390px) {
     header {
@@ -249,7 +359,7 @@ button a {
     }
 
     section {
-        padding: 10px;
+        padding-top: 10px;
         height: 3500px;
     }
     
