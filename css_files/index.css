@@ -321,10 +321,11 @@ footer .navbar ul li a {
     }
     
     .section1 .hex {
-        width: 390px;
+        border-bottom: 50px solid white;
+        width:400px;
         height: 15px;
-        top: 80px;
-        left: -3px;
+        top: 73px;
+        left: -8px;
     }
 
     .section2 {
