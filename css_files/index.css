@@ -321,7 +321,7 @@ footer .navbar ul li a {
     }
     
     .section1 .hex {
-        width: 395px;
+        width: 390px;
         height: 15px;
         top: 80px;
         left: -3px;
@@ -331,7 +331,7 @@ footer .navbar ul li a {
         width: 390px;
         height: 1130px;
         margin: 0;
-        padding: 0 23.5px;
+        padding: 0 20px;
     }
     
     .section2 h2 {
@@ -340,7 +340,7 @@ footer .navbar ul li a {
     }
     
     .section2 .column {
-        width: 160px;
+        width: 170px;
         height: 240px;
         margin: 0 auto 30px;
     }
@@ -352,7 +352,7 @@ footer .navbar ul li a {
 
     .section2 .column:nth-child(2), .section2 .column:nth-child(4),
     .section2 .column:nth-child(6), .section2 .column:nth-child(8) {
-        margin-right: 23px;
+        margin-right: 10px;
     }
 
     .section2 .column:nth-child(2), .section2 .column:nth-child(3) {
@@ -360,24 +360,24 @@ footer .navbar ul li a {
     }
     
     .section2 .column img {
-        width: 169px;
+        width: 170px;
         height: 141.36px;
     }
     
     .section2 .column div {
-        width: 169px;
+        width: 170px;
         height: 80px;
     }
     
     .section2 .column div h5 {
-        width: 169px;
+        width: 170px;
         font-size: 14px;
         margin-top: 5px;
-        margin-bottom: -10px;
+        margin-bottom: -5px;
     }
     
     .section2 .column div p {
-        width: 169px;
+        width: 170px;
         height: 32px;
         font-size: 13px;
         margin-bottom: 5px;
