@@ -214,6 +214,47 @@ button a {
 
 
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding: 10px 40px;
+    }
+
+    header .navbar ul li a {
+        padding: 6px 10px;
+    }
+
+    .text {
+        margin-top: -5px;
+    }
+
+    section {
+        padding-top: 20px;
+        height: 5130px;
+    }
+
+    article {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    article .column {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    button {
+        margin: 0;
+    }
+
+    footer {
+        padding: 10px 40px;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 430px) {
     header {
         width: 430px;
