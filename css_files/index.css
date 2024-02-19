@@ -278,6 +278,10 @@ footer .navbar ul li a {
         padding: 6px 10px;
     }
 
+    header a {
+        font-size: 25px;
+    }
+
     .section1 {
         padding-top: 120px;
     }
